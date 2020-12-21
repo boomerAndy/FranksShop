@@ -1,0 +1,26 @@
+$header-colour: #4dc1ff;
+$span-margin: 1em;
+$card-margin: 25px;
+$ff: calibri;
+
+body{
+    font-family: $ff ;
+}
+h1 { color: $header-colour;};
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    //Without this, clicking will make it sticky
+    pointer-events: none;
+  }
+  
+  .span {
+    margin-right: $span-margin;
+  }
+
+  .card-about {
+    margin-top: $card-margin;
+  }

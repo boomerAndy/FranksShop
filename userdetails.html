@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>User Details - Frank's Shop</title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">    
+</head>
+<body class="bg-dark">
+    <header>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="navbar-brand" href="home.html">Frank's Shop</a>
+                <a class="nav-item nav-link active" href="home.html">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="shop.html">Shop</a>
+                <a class="nav-item nav-link" href="home.html#aboutUs">About Us</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+        
+          
+              </div>
+            </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary"  id="loginlogout" href="#">Login</button>
+              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                <a class="dropdown-item" href="userdetails.html">User Details</a>
+          
+              </div>
+              </div>
+                
+              <div class="btn-toolbar">
+                  <a class="nav-item nav-link" href="checkout.html">
+                  <button type="button" class="btn btn-secondary ml-2">
+                    Checkout <span class="badge badge-light" id="checkout"></span>
+                  </button>
+                  </a>
+              </div> 
+          </nav> 
+        </div>
+      </header>
+<main class="container text-light">   
+    
+    <h1>User Details</h1>
+    <div class="row">    
+        <div class="col-sm col-md-4"> 
+            <form name="userdetails" id="udetails" action="" method="get">
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="form-group">
+                        <label for="getFirstName">First name</label>
+                        <input type="text" class="form-control" id="getFirstName" name="firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="getLastName">Last name</label> 
+                        <input type="text" class="form-control" id="getLastName" name="lastname" required>
+                    </div>    
+                    <div class="form-group">
+                        <label for="getDOB">Date of Birth</label> 
+                        <input type="date" class="form-control" id="getDOB" name="dob" required>
+                    </div> 
+                    <!-- <div class="form-group">
+                        <label for="getEmail">Email address</label>
+                        <input type="email" class="form-control" id="getEmail" placeholder="andrewjackson@examplemail.com" name="email" required>
+                         <small id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</small>
+                      </div>  -->
+                      <div class="form-group">
+                        <label for="getEmail">Email address</label> 
+                        <input type="email" class="form-control" id="getEmail" name="email" required>
+                    </div> 
+                </fieldset>    
+                
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="form-group">
+                        <label for="getAddress1">Address 1</label> 
+                        <input type="text" class="form-control" id="getAddress1" name="address1" required>
+                    </div>   
+                    <div class="form-group">
+                        <label for="getAddress2">Address 2</label> 
+                        <input type="text" class="form-control" id="getAddress2" name="address2" required>
+                    </div>  
+                    <div class="form-group">
+                        <label for="getAddress3">Address 3</label> 
+                        <input type="text" class="form-control" id="getAddress3" name="address2" required>
+                    </div>  
+                </fieldset>    
+                <input type='submit' class="btn btn-primary" value="Update My Details">
+            </form>
+
+
+        </div> 
+    </div>   
+    
+
+    
+</main>
+<!-- Footer -->
+<br>
+<footer class="text-light">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3 col-lg-4 col-xl-3">
+              <h5>About</h5>
+              <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+              <p class="mb-0">
+                  Frank's Shop is a reseller of official Frank Ocean merch. You can find out more on our About Us section.
+              </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+              <h5>Navigation</h5>
+              <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-75">
+              <ul class="list-unstyled">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="home.html#aboutUs">About Us</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+              <h5>Others links</h5>
+              <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-75">
+              <ul class="list-unstyled">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="userdetails.html">Account Details</a></li>
+                <li><a href="register.html">Register Account</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3">
+              <h5>Contact</h5>
+              <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+              <ul class="list-unstyled">
+                  <li><i class="fa fa-home mr-2"></i> Frank's Shop</li>
+                  <li><i class="fa fa-envelope mr-2"></i> helpdesk@stayblonded.com</li>
+                  <li><i class="fa fa-phone mr-2"></i> + 353 123 456 7890</li>
+
+              </ul>
+          </div>
+          <div class="col-12 copyright mt-3">
+              <p class="float-left">
+                  <a href="#">Back to top</a>
+              </p>
+              <p class="text-right text-muted">created by &copy; 2020 Andrew Jackson | <span>v. 1.0</span></p>
+          </div>
+      </div>
+  </div>
+</footer>
+    <script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="custom-js/custom.min.js"></script>   
+    
+</body>
+</html>
+
+
+

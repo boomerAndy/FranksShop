@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="title" content="Frank's Shop">
+  <meta name="description" content="Frank's Shop is an official reseller of merch released by Singer Songwriter Frank Ocean, including Hoodies, Sweatpants, and vinyl pressings."
+  <meta name="author" content="Andrew Jackson">
+  <title>Home - Frank's Shop</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/custom.css">
+
+        <!-- External style sheet-->
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- Bootstrap core CSS -->
+  <!--<link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">-->    
+
+  
+</head>
+<body class="bg-dark">
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="navbar-brand" href="home.html">Frank's Shop</a>
+            <a class="nav-item nav-link active" href="home.html">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="shop.html">Shop</a>
+            <a class="nav-item nav-link" href="#aboutUs">About Us</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+    
+      
+          </div>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary"  id="loginlogout" href="#">Login</button>
+          <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+            <a class="dropdown-item" href="userdetails.html">User Details</a>
+      
+          </div>
+          </div>
+            
+          <div class="btn-toolbar">
+              <a class="nav-item nav-link" href="checkout.html">
+              <button type="button" class="btn btn-secondary ml-2">
+                Checkout <span class="badge badge-light" id="checkout"></span>
+              </button>
+              </a>
+          </div> 
+      </nav> 
+    </div>
+    
+  </header>
+<main class="container">
+     
+    
+     
+<div class="container">
+  <section id="bgContainer">
+    <section id="InfoContainer">
+        <h1 id="InfoHeader">Home - Frank's Shop</h1>
+        <p class="text-light">Welcome To Frank's Shop! We are an official reseller of merch released by Singer Songwriter Frank Ocean.
+        <br> Scoll down to find out more!<p>
+    </section>
+</section>
+</div>
+
+<!--Carousel Wrapper-->
+<div class="container">
+  <div class="card">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+      <!--Slides-->
+      <!-- could use SASS to add a margin to each image for when the page size is small -->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="view">
+            <img class="d-block w-100" src="images/BlondedHoodie.webp"
+              alt="First slide">
+               </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="h3-responsive text-dark">Blonded Logo Hoodie</h3>
+            <p class="text-dark">Fluffy yet light Hoodie, perfect for flexing while on the run.</p>
+            <a href="shop.html" class="btn btn-primary">More Info</a>
+    
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100" src="/images/BlondedPhoneCase.webp"
+              alt="">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive text-dark">Blonded Logo iPhone Case</h3>
+            <p class="text-dark">Superb protection for the most valuable smartphone.</p>
+            <a href="shop.html" class="btn btn-primary">More Info</a>
+    
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100" src="/images/inMyRoomCarousel.webp"
+              alt="Third slide">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive text-dark">Frank Releases New Track!</h3>
+            <p class="text-dark">Frank's latest single, "In My Room" is now available for purchase!</p>
+            <a href="shop.html" class="btn btn-primary">More Info</a>
+    
+          </div>
+        </div>
+      </div>
+      <!--/.Slides-->
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+    
+  </div>
+</div>
+
+<!-- Welcome Section-->
+<hr class="bg-white">
+<div class="container">
+  <div class="card bg-dark">
+    <h3 class="text-center text-white">Welcome to Frank's Shop!</h3>
+      <div class="row">
+        <div class="col-md-6 col-lg text-white"><div class="card-body text-center">Here you'll find all the merch and albums being sold by Frank Ocean! We sell hoodies, sweatpants, phone cases and more! have a look down below or check out our shop by clicking the "view all products" button!</div></div>
+
+      </div>
+  </div>
+</div>
+
+<!--Product Slider-->
+<hr class="bg-white">
+<div class="container">
+<div class="card bg-dark">
+<h3 class="text-center text-white">Most Popular Products</h3>
+  <div class="card-body">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <!-- <ol class="carousel-indicators p-1">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol> -->
+      <div class="carousel-inner">
+        <!-- Slider carousel 1 -->
+        <div class="carousel-item active">
+          <h4 class="text-center text-white">Latest Merch</h4>
+          <div class="row">
+            <div class="col-md-6 col-lg"><a href="shop.html" title="blonde logo hoodie"><img class="d-block w-100" src="images/BlondedHoodiePreview.jpeg"  alt="BlondedHoodieProduct"></a><div class="card col text-center"><h5>Blonded Logo Hoodie</h5><p class="card-text">description cost in €.</p></div></div>
+            <div class="col-md-6 col-lg"><a href="shop.html" title="blonde logo phone case"><img class="d-block w-100" src="images/BlondedPhoneCasePreview.jpeg"  alt="BlondedPhoneCaseProduct"></a><div class="card col text-center"><h5>Blonded Phone Case</h5><p class="card-text">description cost in €.</p></div></div>
+            <div class="col-md-6 col-lg"><a href="shop.html" title="blonde logo sweatpants"><img class="d-block w-100" src="images/BlondedSweatpantsPreview.jpeg"  alt="BlondedSweatpantsProduct"></a><div class="card col text-center"><h5>Blonded Sweatpants</h5><p class="card-text">description cost in €.</p></div></div>
+            <div class="col-md-6 col-lg"><a href="shop.html" title="blonde logo socks"><img class="d-block w-100" src="images/BlondedSocksPreview.jpeg"  alt="BlondedSocksProduct"></a><div class="card col text-center"><h5>Blonded Socks</h5><p class="card-text">description cost in €.</p></div></div>
+
+          </div>
+        </div>
+        <!-- End of Slider Carousel 1 -->
+
+        <!-- Slider carousel 2 -->
+
+        <div class="carousel-item">
+          <h4 class="text-center text-light">Latest Albums</h4>
+          <div class="row">
+            <div class="col-md-6 col-lg"><a href="shop.html" title="In my room - single by frank ocean"><img class="d-block w-100" src="images/inmyroompreview.jpeg"  alt="inMyRoomProduct"></a><div class="card col text-center"><h5>In My Room</h5><p class="card-text">description cost in €.</p></div></div>
+            <div class="col-md-6 col-lg"><a href="shop.html" title="DHL - single by frank ocean"><img class="d-block w-100" src="images/dhlcoverpreview.jpeg"  alt="dhlProduct"></a><div class="card col text-center"><h5>DHL</h5><p class="card-text">description cost in €.</p></div></div>
+            <div class="col-md-6 col-lg"><a href="shop.html" title="Blonde - album by frank ocean"><img class="d-block w-100" src="images/BlondedCoverpreview.jpeg"  alt="blondeProduct"></a><div class="card col text-center"><h5>Blond(e)</h5><p class="card-text">description cost in €.</p></div></div>
+            <div class="col-md-6 col-lg"><a href="shop.html" title="Channel Orange - album by frank ocean"><img class="d-block w-100" src="images/channelorangepreview.jpeg"  alt="channelOrangeProduct"></a><div class="card col text-center"><h5>Channel Orange</h5><p class="card-text">description cost in €.</p></div></div>
+
+          </div>
+        </div>
+        <!-- End of Slider Carousel 2 -->
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <!-- should change this to sass so i can use it for both buttons -->
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="mx-auto" style="width: 150px;">
+      <button style="margin-top: 25px;" type="button" class="btn btn-primary"  id="viewAllProducts" href="shop.html">View All Products</button>
+    </div>
+  </div>
+</div>
+<!-- End of product carousel-->
+
+<!-- About us section -->
+<hr class="bg-white">
+    <div class="card text-center">
+      <h3 id="aboutUs" class="text-center">About us - So who are we?</h3>
+  <div class="card-body">
+        <p class="card-about">Frank's Shop is a grassroots third party reseller of official merch from singer songwriter Frank Ocean, based out of the top floor of Fritzel's European Jazz Pub in New Orleans, USA. We chose this place as this pub was instrumental in Frank's inspiration to pursue music (plus the rent was pretty cheap).<br>We've been an independant reseller since 2016 when Frank released his groundbreaking and decade-defining album Blond(e), and launched his own merch line. We are seen as an alternative to other reseller sites like StockX or eBay.<br>We also donate a portion of all profits to charities and non-profit organisations in the area like Homeless America, the Hurricane Katrina fund and the LGBTQ+ mental health center.<br>If you have any questions or would like to help, you can contact us on our contact page.</p>
+
+          <br>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55312.2755952706!2d-90.11768777985623!3d29.950183170524593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a611d5a3878d%3A0x7f7d9e19dc83c44c!2sFritzel&#39;s%20European%20Jazz%20Pub!5e0!3m2!1sen!2sie!4v1586108677872!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+  
+</div>
+<hr class="bg-white">
+</main>
+<!-- Footer -->
+<br>
+<footer class="text-light">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3 col-lg-4 col-xl-3">
+              <h5>About</h5>
+              <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+              <p class="mb-0">
+                  Frank's Shop is a reseller of official Frank Ocean merch. You can find out more on our About Us section.
+              </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+              <h5>Navigation</h5>
+              <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-75">
+              <ul class="list-unstyled">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="home.html#aboutUs">About Us</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+              <h5>Others links</h5>
+              <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-75">
+              <ul class="list-unstyled">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="userdetails.html">Account Details</a></li>
+                <li><a href="register.html">Register Account</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3">
+              <h5>Contact</h5>
+              <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+              <ul class="list-unstyled">
+                  <li><i class="fa fa-home mr-2"></i> Frank's Shop</li>
+                  <li><i class="fa fa-envelope mr-2"></i> helpdesk@stayblonded.com</li>
+                  <li><i class="fa fa-phone mr-2"></i> + 353 123 456 7890</li>
+
+              </ul>
+          </div>
+          <div class="col-12 copyright mt-3">
+              <p class="float-left">
+                  <a href="#">Back to top</a>
+              </p>
+              <p class="text-right text-muted">created by &copy; 2020 Andrew Jackson | <span>v. 1.0</span></p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script src="js/jquery-min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>    
+<script src="custom-js/custom.min.js"></script>   
+
+
+</body>
+</html>
+
+
+
